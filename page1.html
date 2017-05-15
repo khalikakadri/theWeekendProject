@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<title>WEEKEND PROJECT</title>
+<link rel=stylesheet type"text/css" href="style.css">
+<script> 
+function msgBox (mystring)
+{
+		alert (mystring)
+}
+</script>
+</head>
+
+<body>
+<h1> My JavaScript Demo Lab 1 </h1>
+<h4> Please enter your name: </h4>
+<form> 
+<input name="box1" type="text" />
+<input name="submit" type="button" value="Show Me" onClick = "msgBox (form.box1.value)"> 
+
+<h1> Simple Math: </h1>
+<form> 
+<input name="box2" type="text" />
+<h4> multiply by </h4>
+<input name="box3" type="text" />
+<input name="submit" type="button" value="Multiply" onClick = "msgBox (form.box1.value)"> 
+
+<h1> More Math: </h1>
+<form> 
+
+<input type="text" name="num1" size="5">
+<select name="form3">
+    <option value="Add">Add</option>
+    <option value="Subtract">Subtract</option>
+    <option value="Multiply">Multiply</option>
+    <option value="Divide">Divide</option>
+<input type="text" name="num2" size="5">
+<input name="submit3" type="button" value="Calculate"
+                onClick="DoProduct(form.num1.value, form.num2.value)" />
+</select> 
+
+
+</body>
+
+</html>	
